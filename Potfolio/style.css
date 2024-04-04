@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_containor {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+
+.grid_child {
+    height: 200px;
+    border: 2px solid black;
+}
+
+.grid_header {
+    /* height: 200px; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    margin: auto;
+}
+
+.btn {
+    height: 50px;
+    margin: auto 20px;
+    padding: 4px;
+    background-color: rgb(241, 140, 241);
+    color: white;
+    border-radius: 8px;
+}
+
+.grid_info {
+    background: url(image/bg\ image.jpg);
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+
+.info {
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+span {
+    color: rgb(241, 140, 241);
+    font-size: 33px;
+    padding: 170px;
+}
+
+.img {
+    width: 50%;
+}
+
+.marq_name {
+    border: 2px solid black;
+    background-color: wheat;
+    color: maroon;
+    font-size: 40px;
+
+
+}
+
+marquee {
+    margin-top: 10px;
+}
+
+.intro {
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 46px;
+    background-color: black;
+    color: rgb(235, 211, 235);
+}
+
+.para {
+    color: plum;
+    font-size: 38px;
+}
+
+.btn_page {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 40px;
+}
+
+.btn-pg {
+    height: 50px;
+    margin: 20px;
+    padding: 6px 10px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 8px;
+}
+
+.head-icon li {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+    padding: 64px 16px 0px 0px;
+
+}
+
+.about {
+    display: flex;
+    margin: 20px;
+
+}
+
+.personal_info {
+    background-color: rgb(13, 14, 17);
+    color: white;
+
+}
+
+.gray {
+    color: lightgray;
+    margin: 20px;
+}
+
+.info_para_1 {
+    padding: 20px;
+}
+
+.heading {
+    padding: 0 20px;
+    color: rgb(241, 140, 241);
+}
+
+.flex_tile_1 {
+    display: flex;
+
+}
+
+.flex_box_1,
+.flex_box_2 {
+    width: 50%;
+    height: 150px;
+    border: 2px solid rgb(41, 30, 30);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+
+}
+
+
+.experience,
+.education {
+    display: flex;
+    margin: 20px;
+
+}
+
+.year {
+    color: rgb(241, 140, 241);
+}
+
+.size {
+    color: lightgray;
+    margin: 20px;
+}
+
+.experience_info {
+    background-color: rgb(13, 14, 17);
+    color: white;
+    width: 1203px;
+    padding: 10px
+}
+
+.exp_year {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.exp {
+    float: right;
+    margin-right: 30px;
+}
+
+.project {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.pro_head {
+    text-align: center;
+    color: rgb(161, 122, 15);
+    margin: 20px;
+}
+
+.work-1 {
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid grey;
+    cursor: pointer;
+    /* opacity: 0.4; */
+    transition: 0.6s;
+}
+
+.container {
+    text-align: center;
+}
+
+.heading_container {
+    color: rgb(161, 122, 15);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 400px;
+    margin-top: 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main {
+    padding: 20px;
+}
+
+.contact_form {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.contact_form input[type="text"],
+.contact_form input[type="email"],
+.contact_form input[type="number"],
+.contact_form input[type="text"] {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact_form button {
+    width: 50%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.img-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    border-top: 1px solid white;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    background-color: black;
+    padding: 30px;
+
+
+}
